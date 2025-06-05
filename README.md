@@ -7,7 +7,7 @@
 # DesignPatterns
 
 ## Builder
-🇦🇿 Azərbaycan dilində <img src="./public/hamburger.jpg" width="400"/>
+🇦🇿 Azərbaycan dilində <img src="./hamburger.jpg" width="400"/>
 
 Təsəvvür et ki, sən bir restoranın mətbəxindəsən və müştəri öz zövqünə uyğun bir hamburger istəyir. Biri pendir istəyir, biri istəmir. Biri sous əlavə etdirir, digəri isə sadə istəyir. Bu vəziyyətdə hər müştəriyə uyğun hamburger hazırlamaq üçün Builder Dizayn Şablonu mükəmməl işləyir.
 🧱 Builder Şablonunun Rolları:
