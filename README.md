@@ -7,7 +7,7 @@
 # DesignPatterns
 
 ## Builder
-🇦🇿 Azərbaycan dilində <img src="./hamburger.jpg" width="400"/>
+🇦🇿 Azərbaycan dilində <img src="./hamburger.png" width="300"/>
 
 Təsəvvür et ki, sən bir restoranın mətbəxindəsən və müştəri öz zövqünə uyğun bir hamburger istəyir. Biri pendir istəyir, biri istəmir. Biri sous əlavə etdirir, digəri isə sadə istəyir. Bu vəziyyətdə hər müştəriyə uyğun hamburger hazırlamaq üçün Builder Dizayn Şablonu mükəmməl işləyir.
 🧱 Builder Şablonunun Rolları:
@@ -56,3 +56,27 @@ Imagine you're in a restaurant kitchen, and a customer wants a custom hamburger.
       4. add_lettuce() → Add lettuce
       5. add_sauce()   → Add sauce
       6. build()       → Return the completed hamburger
+
+
+## Factory
+
+🇦🇿 Azərbaycan dilində izah <img src="./factory.png" width="300"/>
+
+Factory Dizayn Nümunəsi (ing. Factory Design Pattern) — bu, yaradıcı (creational) dizayn nümunəsidir. Məqsədi, obyektlərin yaradılmasını bir funksiyaya ötürmək və proqramın əsas hissəsini bu detaldan ayırmaqdır.
+
+Bu nümunə fərqli növ obyektləri dinamik şəkildə yaratmaq istədikdə çox yararlıdır.
+
+ ### Sadə Fikir
+
+    Factory pattern = "Nə istehsal olunacağını bilmirsən, amma necə istehsal ediləcəyini bilirsən."
+
+🇬🇧 English Explanation 
+
+The Factory Design Pattern is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
+It’s useful when:
+
+    You don’t know in advance what class of object you need.
+
+    You want to isolate object creation logic from usage.
+
