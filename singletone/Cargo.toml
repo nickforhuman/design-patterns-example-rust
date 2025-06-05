@@ -1,0 +1,10 @@
+[package]
+name = "singletone"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.11.0"
+diesel = { version = "2.2.10", features = ["postgres", "r2d2"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
